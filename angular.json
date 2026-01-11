@@ -40,7 +40,9 @@
             "prerender": true,
             "ssr": {
               "entry": "server.ts"
-            }
+            },
+            "baseHref": "/galeria/",
+            "deployUrl": "/galeria/"
           },
           "configurations": {
             "production": {
